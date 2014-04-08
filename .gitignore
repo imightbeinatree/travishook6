@@ -1,0 +1,25 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+.vagrant*
+
+.sass-cache/*
+.yardoc/*
+.DS_Store
+*/.DS_Store
+
+/cookbooks/*
+
+/public/images/*
+
+#file used for cucumber rerun data storage
+rerun.txt
+
+*.sql
+
+Guardfile
+

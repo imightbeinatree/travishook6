@@ -1,0 +1,118 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef_handler (1.1.5)
+    dmg (2.2.0)
+    runit (1.5.10)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    windows (1.30.2)
+      chef_handler (>= 0.0.0)
+    yum (3.1.6)
+    yum-epel (0.3.4)
+      yum (~> 3.0)
+
+GIT
+  remote: https://github.com/cloudspace/bundler-cookbook
+  ref: master
+  sha: 508df80c04fb6a893a2ddfa1f63f1e81dbf43700
+  specs:
+    bundler (0.1.0)
+
+GIT
+  remote: https://github.com/cloudspace/librarian-chef-cookbook
+  ref: master
+  sha: bf4428f92c3a1bd6281bb747d2dfa900cf92d33f
+  specs:
+    librarian-chef (0.1.0)
+
+GIT
+  remote: https://github.com/hw-cookbooks/postgresql
+  ref: master
+  sha: 5800238828b443725442fe510ec4f5308ed9ce8b
+  specs:
+    postgresql (3.3.4)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+
+GIT
+  remote: https://github.com/mdxp/nodejs-cookbook
+  ref: master
+  sha: e2415cd8c4e03dccf21d7ef6ca31e1c5c81467ca
+  specs:
+    nodejs (1.3.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/apt
+  ref: master
+  sha: 8ef28bceaa6a9eded47e640d26df4a6f3a80320c
+  specs:
+    apt (2.3.9)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/build-essential
+  ref: master
+  sha: 4d9f91c101588ab5292259fd06c1b50d935b7f73
+  specs:
+    build-essential (2.0.1)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/git.git
+  ref: master
+  sha: 76b0f9bb08fdd9e2e201fd70b72298097accdf96
+  specs:
+    git (4.0.1)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0)
+      windows (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/imagemagick
+  ref: master
+  sha: 891a842ad71a8dadc5ec6ed4fa564493e71e2bce
+  specs:
+    imagemagick (0.2.2)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/openssl
+  ref: master
+  sha: b9a52cdac76063059ff330e8427758cdeff5ee58
+  specs:
+    openssl (1.1.1)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/postfix
+  ref: master
+  sha: f27480fa4ca551d25e3040d8e281700149e95d6c
+  specs:
+    postfix (3.1.9)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/ubuntu
+  ref: master
+  sha: 72c45a318632b8a018db73e1baf8f2e61d03fcf6
+  specs:
+    ubuntu (1.1.7)
+      apt (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  build-essential (>= 0)
+  bundler (>= 0)
+  git (>= 0)
+  imagemagick (>= 0)
+  librarian-chef (>= 0)
+  nodejs (>= 0)
+  openssl (>= 0)
+  postfix (>= 0)
+  postgresql (>= 0)
+  ubuntu (>= 0)
+
